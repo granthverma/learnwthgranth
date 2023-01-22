@@ -232,6 +232,9 @@ ul {
     text-align: center;
 }
 
+.features-card img {
+        width: 60px;
+}
 
 /* big-feature-section" */
 
@@ -342,12 +345,33 @@ ul {
 
 
 /* footer */
+
+
+footer {
+    padding-block:80px ;
+    background-color: #ebf2fa;
+}
  .link-column {
    flex-direction: column;
    align-items: flex-start;
+   gap: 20px;
  }
 
  .footer-container{
     align-items: flex-start;
     justify-content: space-between;
+ }
+
+ /* subfooter */
+
+ .subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+    justify-content: center;
+ }
+
+ .subfooter-container{
+        justify-content: center;
+        gap: 30px;
+
  }
