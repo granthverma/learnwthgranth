@@ -339,3 +339,15 @@ ul {
     color: white;
     margin-top: 20px;
 }
+
+
+/* footer */
+ .link-column {
+   flex-direction: column;
+   align-items: flex-start;
+ }
+
+ .footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+ }
