@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 /* basic  */
 *{
     margin: 0;
@@ -35,8 +35,9 @@ h3{
 p{
     font-family: 'Roboto' ,sans-serif;
     font-size: 1.25rem;
-    line-height: 1.8rem;
     color: var(--secondary-text-color);
+    line-height: 1.8rem;
+   
 }
 
 a{
@@ -44,7 +45,9 @@ a{
     display: inline-block;
 }
 
-
+ul {
+    list-style: none;
+}
 /* utility class */
 
 
@@ -66,35 +69,46 @@ a{
      display: flex;
      align-items: center;
 }
-ul {
-    list-style: none;
-}
+
 .hover-link{
     color: var(--primary-text-color);
+    transition: 0.2s ease-out;
 }
 
 .hover-link:hover{
     color: var(--accent-color);
-    transition: 0.2s ease-out;
+   
 }
 
-.primary-buttton {
+.primary-button{
      background-color: var(--accent-color);
-     border-radius: 6px;
-     font-weight: 700;
+      border-radius: 6px;
+      font-weight: 700;
      color: white !important;
      padding: 12px 24px;
-     box-shadow: 0 0 2px var(--secondary-text-color);
+      box-shadow: 0 0 2px var(--secondary-text-color);
      transform: 0.2s ease-out;
+     text-align: center;  
+  
 }
-
-.primary-buttton:hover{
+.primary-button:hover{
     background-color: var(--accent-color-dark);
 }
 
 
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 700px;
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
 
-
+.secondary-button :hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
 
 /* top banner */
 .top-banner {
